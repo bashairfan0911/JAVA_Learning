@@ -1,5 +1,6 @@
+package Function;
 import java.util.Scanner;
-public class FUN {
+public class FUN1 {
     public static void main(String[] args) {
       sum();
     }
