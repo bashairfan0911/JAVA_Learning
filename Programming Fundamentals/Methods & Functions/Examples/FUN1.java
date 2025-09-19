@@ -5,8 +5,13 @@ public class FUN1 {
       // sum();
       // int ans=sum2();
       // System.out.println(ans);
-      int ans=sum3(20,30);
-      System.out.println(ans);
+      // int ans=sum3(20,30);
+      // System.out.println(ans);
+      Scanner in = new Scanner(System.in);
+      System.out.print("enter your name: ");
+      String name=in.next();
+      String greeting=greet(name);
+      System.out.println(greeting);
 
     }
     static void sum(){
@@ -33,9 +38,15 @@ public class FUN1 {
     return sum;
     }
 
-    // USing Parameter
+    // EG:1 USing Parameter
     static int sum3(int a, int b){
         int sum=a+b;
         return sum;
+    }
+
+// EG: 02
+    static String greet(String name){
+        String greeting = "How are you" + name;
+        return greeting;
     }
 }
